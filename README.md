@@ -4,11 +4,12 @@
 
 ---
 
-## 📌 Overview  
+## Overview  
 This project leverages machine learning to:  
-1. **Cluster players** into positions (e.g., Defender, Midfielder, Forward) using unsupervised learning (K-means, DBSCAN, UMAP).  
-2. **Classify positions** using supervised models (Random Forest, Neural Networks).  
-3. **Visualize player roles** with dimensionality reduction (PCA, t-SNE).  
+1. **Cluster players** into positions (e.g., Defender, Midfielder, Forward) using unsupervised learning (K-means, DBSCAN).
+2. **Investigate** hidden relationships and potential subgroups with Topological Data Analysis (Mapper Algorithm).
+3. **Classify positions** using supervised models (Random Forest, Neural Networks).  
+4. **Visualize player roles** with dimensionality reduction (PCA, UMAP).  
 
 Key techniques:  
 - **Unsupervised Learning**: Clustering (K-means, DBSCAN), Dimensionality Reduction (PCA, UMAP)  
@@ -17,7 +18,7 @@ Key techniques:
 
 ---
 
-## 🚀 Features  
+## Features  
 ### 1. Unsupervised Clustering  
 - **K-means & DBSCAN**: Groups players based on performance metrics (e.g., tackles, passes, shots).  
 - **PCA/t-SNE Visualization**: Reduces features to 2D/3D for interpretability.  
